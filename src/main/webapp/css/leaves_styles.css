@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+#newRequest{
+	width: 137%;
+    border-radius: 0%;
+}
+
+#new-req-button {
+	float: right;
+	display: inline-block;
+    margin-right: 7%;
+}
+
+.table-container {
+	box-shadow: 0px 0px 10px 0px rgba(80, 60, 40, 0.5);
+}
