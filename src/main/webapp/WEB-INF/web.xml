@@ -34,4 +34,14 @@
     <servlet-name>LeaveController</servlet-name>
     <url-pattern>/LeaveController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StudentProfileController</display-name>
+    <servlet-name>StudentProfileController</servlet-name>
+    <servlet-class>com.pst.sp.controller.StudentProfileController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentProfileController</servlet-name>
+    <url-pattern>/StudentProfileController</url-pattern>
+  </servlet-mapping>
 </web-app>
