@@ -25,7 +25,6 @@ String result = request.getAttribute("result") == null ? "" : (String)request.ge
   <strong><%=message %></strong>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
-
 <% }%>
 
 <div id="new-req-button">
@@ -57,7 +56,7 @@ String result = request.getAttribute("result") == null ? "" : (String)request.ge
       <td>
        <a href=""><i class="bi bi-file-earmark-medical text-danger"></i></a>
        <a href=""><i class="bi bi-pencil-square text-danger"></i></a>
-       <a href=""><i class="bi bi-trash text-danger"></i></a>
+       <a href="./ViewLeaveRequestController?leaveId=1"><i class="bi bi-trash text-danger"></i></a>
       </td>
     </tr>
     <tr>
