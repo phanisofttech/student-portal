@@ -34,7 +34,7 @@ public class DatabaseConnection {
 	public static Properties readCredentials() {
 		Properties props = null;
 		try {
-		FileInputStream fis = new FileInputStream("F:\\Internship\\Batch_5\\basics\\eclipse_workspace\\student_portal\\src\\main\\webapp\\resources\\db_credentials.properties");
+		FileInputStream fis = new FileInputStream("D:\\J2EE_INTERNSHIP\\Git_Student_Local_storage\\student-portal\\src\\main\\webapp\\resources\\db_credentials.properties");
 		props = new Properties();
 		props.load(fis);
 		

@@ -34,4 +34,14 @@
     <servlet-name>LeaveController</servlet-name>
     <url-pattern>/LeaveController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewLeaveRequestController</display-name>
+    <servlet-name>ViewLeaveRequestController</servlet-name>
+    <servlet-class>com.pst.sp.controller.ViewLeaveRequestController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewLeaveRequestController</servlet-name>
+    <url-pattern>/ViewLeaveRequestController</url-pattern>
+  </servlet-mapping>
 </web-app>
